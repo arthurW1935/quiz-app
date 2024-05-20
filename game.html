@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/game.js" defer></script>
+</head>
+<body>
+    <section class="heads-up">
+        <div class="attempted-box">
+            <p>Question <span class="q-no">0</span>/3</p>
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+        </div>
+        <div class="current-score-box">
+            <p>Score</p>
+            <p class="current-score">0</p>
+        </div>
+    </section>
+    <section class="question" index=-1>
+        <div class="question-title">
+            <p></p>
+        </div>
+        <div class="question-options">
+            <button>
+                <div class="option">A</div>
+                <div class="answer">Choice 1</div>
+            </button>
+            <button>
+                <div class="option">B</div>
+                <div class="answer">Choice 2</div>
+            </button>
+            <button>
+                <div class="option">C</div>
+                <div class="answer">Choice 3</div>
+            </button>
+            <button>
+                <div class="option">D</div>
+                <div class="answer"></div>
+            </button>
+        </div>
+    </section>
+</body>
+</html>
